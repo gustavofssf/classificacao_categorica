@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/usuario/Documents/GitHub/Gustavo_f-MESC/classificacao_categorica/mlruns/0/a9ba6a23f221453ea82cf2b5238e5a48/artifacts
+end_time: 1760475030270
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a9ba6a23f221453ea82cf2b5238e5a48
+run_name: Run_1_Baseline
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760475023785
+status: 3
+tags: []
+user_id: usuario

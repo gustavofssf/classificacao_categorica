@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/usuario/Documents/GitHub/Gustavo_f-MESC/classificacao_categorica/mlruns/0/8fc089bbfe414232b0d55abfa0d28c9b/artifacts
+end_time: 1760475035609
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8fc089bbfe414232b0d55abfa0d28c9b
+run_name: Run_2_Deeper_Trees
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760475030474
+status: 3
+tags: []
+user_id: usuario

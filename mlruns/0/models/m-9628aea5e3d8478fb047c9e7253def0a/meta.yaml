@@ -1,0 +1,10 @@
+artifact_location: file:C:/Users/usuario/Documents/GitHub/Gustavo_f-MESC/classificacao_categorica/mlruns/0/models/m-9628aea5e3d8478fb047c9e7253def0a/artifacts
+creation_timestamp: 1760475023893
+experiment_id: '0'
+last_updated_timestamp: 1760475030260
+model_id: m-9628aea5e3d8478fb047c9e7253def0a
+model_type: null
+name: model
+source_run_id: a9ba6a23f221453ea82cf2b5238e5a48
+status: 2
+status_message: null
