@@ -1,5 +1,5 @@
 ## Resultados Obtidos:
-- Modelo: Random Forest
+- Modelo: Random Forest treinado com sucesso
 - Acurácia: 0.5250 | F1-Score: 0.5357
 - Dois experimentos registrados no MLflow
 - Pipeline modular seguindo padrões profissionais
