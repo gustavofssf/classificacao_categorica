@@ -1,0 +1,22 @@
+artifact_path: file:C:/Users/usuario/Documents/GitHub/classificacao_categorica/mlruns/0/models/m-e00c3876b8104ad08c3e16692b116a1e/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.7
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.2
+mlflow_version: 3.4.0
+model_id: m-e00c3876b8104ad08c3e16692b116a1e
+model_size_bytes: 309575
+model_uuid: m-e00c3876b8104ad08c3e16692b116a1e
+prompts: null
+run_id: 7b9dc55f5fc1440caa7953a556b96f9d
+utc_time_created: '2025-10-16 12:23:04.453088'

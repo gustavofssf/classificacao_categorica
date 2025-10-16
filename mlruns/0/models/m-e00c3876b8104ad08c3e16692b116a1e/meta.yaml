@@ -1,0 +1,10 @@
+artifact_location: file:C:/Users/usuario/Documents/GitHub/classificacao_categorica/mlruns/0/models/m-e00c3876b8104ad08c3e16692b116a1e/artifacts
+creation_timestamp: 1760617384417
+experiment_id: '0'
+last_updated_timestamp: 1760617392839
+model_id: m-e00c3876b8104ad08c3e16692b116a1e
+model_type: null
+name: model
+source_run_id: 7b9dc55f5fc1440caa7953a556b96f9d
+status: 2
+status_message: null

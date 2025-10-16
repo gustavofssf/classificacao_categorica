@@ -1,0 +1,14 @@
+artifact_uri: file:C:/Users/usuario/Documents/GitHub/classificacao_categorica/mlruns/0/938171558ba9424db191988cbc7d103a/artifacts
+end_time: 1760617524368
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 938171558ba9424db191988cbc7d103a
+run_name: Run_1_Baseline
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1760617517819
+status: 3
+tags: []
+user_id: usuario
