@@ -25,10 +25,10 @@ def criar_dataset_exemplo():
     # Salvar em data/raw/
     df.to_csv("data/raw/dataset_exemplo.csv", index=False)
 
-    print("✅ Dataset de exemplo criado com sucesso!")
-    print("📁 Local: data/raw/dataset_exemplo.csv")
-    print("🎯 Coluna target: 'target'")
-    print("📊 Formato:", df.shape)
+    print("Dataset de exemplo criado com sucesso")
+    print("Local: data/raw/dataset_exemplo.csv")
+    print("Coluna target: 'target'")
+    print("Formato:", df.shape)
     print("\nPrimeiras linhas:")
     print(df.head())
 
