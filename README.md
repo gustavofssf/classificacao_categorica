@@ -1,4 +1,4 @@
-__Atividade desenvolvida na disciplina de Inteligência artificial__ \
+__Atividade desenvolvida na disciplina de Inteligência artificial - Ano 2025__ \
 Universidade Federal Fluminense \
 Mestrado em Engenharia de Produção e Sistemas Computacionais \
 Sob orientação do Prof. Leonard Barreto \
@@ -15,6 +15,7 @@ Gustavo Francisco Sant'Anna dos Santos de França</pre>
 1. `py -m pip install -r requirements.txt`
 2. `py main.py`
 3. `mlflow ui` para visualizar resultados
+
 
 
 
