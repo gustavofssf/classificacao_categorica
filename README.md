@@ -111,7 +111,8 @@ O pipeline treinou e registrou **dois runs distintos** para fins de comparação
 | **Acurácia** | 0.5250 | 0.5000 |
 | **F1-Score (Weighted)** | 0.5357 | 0.5067 |
 
-*Nota:* O Run 1 (Baseline) obteve métricas ligeiramente superiores neste conjunto de dados.
+*Nota:* O Run 1 (Baseline) obteve métricas ligeiramente superiores neste conjunto de dados, 
+o que pode indicar sobreajuste (*overfitting*) no conjunto de teste usado no a Run 2.
 
 ## Experimentos registrados no MLflow
 
@@ -136,3 +137,4 @@ MLflow - Tracking de experimentos
 Pandas - Manipulação de dados  
 Cookiecutter - Estrutura do projeto  
 NumPy - Computação numérica  
+
