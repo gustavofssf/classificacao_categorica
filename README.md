@@ -135,5 +135,4 @@ Scikit-learn - Modelos de ML
 MLflow - Tracking de experimentos  
 Pandas - Manipulação de dados  
 Cookiecutter - Estrutura do projeto  
-
-
+NumPy - Computação numérica  
