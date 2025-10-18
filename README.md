@@ -89,7 +89,7 @@ mlflow ui
 ```
 Acesse: **http://localhost:5000**
 
-Para usar seu próprio dataset:
+Para usar seu próprio *dataset*:
 1. Coloque o arquivo CSV em `data/raw/`
 2. Atualize a chamada em `main.py`:
 
@@ -137,4 +137,5 @@ MLflow - Tracking de experimentos
 Pandas - Manipulação de dados  
 Cookiecutter - Estrutura do projeto  
 NumPy - Computação numérica  
+
 
