@@ -37,6 +37,7 @@ def main():
 
         # Treina o modelo 2 passando os novos parâmetros
         model_2, accuracy_2, f1_2, X_test_2, y_test_2 = train_model(X_train, X_test, y_train, y_test, params=params_2)
+        print(f"Modelo 2 treinado - Acurácia: {accuracy_2:.4f}, F1: {f1_2:.4f}")
         metrics_2 = {"accuracy": accuracy_2, "f1_score": f1_2}
         log_run(model_2, params_2, metrics_2, "Run_2_Deeper_Trees")
         print("Segundo run registrado no MLflow")
