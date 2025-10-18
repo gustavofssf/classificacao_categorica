@@ -76,13 +76,26 @@ Para usar seu próprio dataset:
 df = load_data('seu_dataset.csv')
 X_train, X_test, y_train, y_test = preprocess__and_split(df, 'coluna_target')
 
-📈 Resultados Obtidos
-- Modelo: *Random Forest* treinado com sucesso
-##Métricas
-- Acurácia: 0.5250 |  F1-Score: 0.5357
-## Dois experimentos registrados no MLflow
-Run 1: Parâmetros baseline (n_estimators=100, max_depth=5)
-Run 2: Parâmetros otimizados (n_estimators=200, max_depth=10)
+📈 Resultados e Rastreamento de Experimentos
+
+O pipeline treinou e registrou dois runs distintos para fins de comparação.
+
+**Modelo Treinado:** Random Forest
+
+###Métricas
+
+### Comparativo de Métricas
+
+| Métrica | Run 1 (Baseline) | Run 2 (Otimizado) |
+| :--- | :---: | :---: |
+| **Acurácia** | 0.5250 | 0. |
+| **F1-Score (Weighted)** | 0.5357 | 0. |
+
+## Experimentos registrados no MLflow
+| Run | Parâmetros Chave | Objetivo |
+| :--- | :--- | :--- |
+| **Run 1 (Baseline)** | `n_estimators=100`, `max_depth=5` | Ponto de partida para a otimização. |
+| **Run 2 (Otimizado)** | `n_estimators=200, max_depth=10` | Teste de um modelo mais complexo. |
 
 ## 🏗️ Arquitetura Modular e Separação de Responsabilidades
 
@@ -98,3 +111,4 @@ Scikit-learn - Modelos de ML
 MLflow - Tracking de experimentos
 Pandas - Manipulação de dados
 Cookiecutter - Estrutura do projeto
+
