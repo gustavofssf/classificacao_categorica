@@ -82,7 +82,7 @@ source .venv/bin/activate
 2. py main.py
 ```
 
-## Visualizar os Resultados no MLFlow
+## Visualizar os Resultados no MLflow
 
 ```bash
 3. mlflow ui para visualizar resultados
@@ -135,3 +135,4 @@ Scikit-learn - Modelos de ML
 MLflow - Tracking de experimentos  
 Pandas - Manipulação de dados  
 Cookiecutter - Estrutura do projeto  
+
