@@ -29,18 +29,18 @@ Projeto de Data Science focado em Classificação Categórica, implementado atra
 
 ## 📁 Estrutura do Projeto
 
-- classificacao_categorica/
-├── data/
-│ ├── raw/ # Dados brutos
-│ └── processed/ # Dados processados
-├── src/classificacao_categorica/
-│ ├── config.py # Configurações centralizadas
-│ ├── dataset.py # Carregamento e pré-processamento
-│ └── modeling/
-│ ├── train.py # Lógica de treinamento
-│ └── tracking.py # Rastreamento com MLflow
-├── main.py # Pipeline principal
-├── requirements.txt # Dependências
+- classificacao_categorica /
+├── data /
+│ ├── raw / # Dados brutos
+│ └── processed / # Dados processados
+├── src/classificacao_categorica /
+│ ├── config.py / # Configurações centralizadas
+│ ├── dataset.py / # Carregamento e pré-processamento
+│ └── modeling /
+│ ├── train.py / # Lógica de treinamento
+│ └── tracking.py / # Rastreamento com MLflow
+├── main.py / # Pipeline principal
+├── requirements.txt / # Dependências
 └── README.md
 
 ## ⚙️ Instalação e Configuração
@@ -88,8 +88,8 @@ O pipeline treinou e registrou dois runs distintos para fins de comparação.
 
 | Métrica | Run 1 (Baseline) | Run 2 (Otimizado) |
 | :--- | :---: | :---: |
-| **Acurácia** | 0.5250 | 0. |
-| **F1-Score (Weighted)** | 0.5357 | 0. |
+| **Acurácia** | 0.5250 | 0.5000 |
+| **F1-Score (Weighted)** | 0.5357 | 0.5067 |
 
 ## Experimentos registrados no MLflow
 | Run | Parâmetros Chave | Objetivo |
@@ -111,4 +111,5 @@ Scikit-learn - Modelos de ML
 MLflow - Tracking de experimentos
 Pandas - Manipulação de dados
 Cookiecutter - Estrutura do projeto
+
 
