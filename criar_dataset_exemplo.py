@@ -22,7 +22,7 @@ def criar_dataset_exemplo():
     # Garantir que a pasta existe
     Path("data/raw").mkdir(parents=True, exist_ok=True)
 
-    # Salvar em data/raw/
+    # Salvar dados brutos
     df.to_csv("data/raw/dataset_exemplo.csv", index=False)
 
     print("Dataset de exemplo criado com sucesso")
