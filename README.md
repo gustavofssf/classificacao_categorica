@@ -73,19 +73,19 @@ source .venv/bin/activate
 ### 3. Instale as dependências
 
 ```bash
-1. py -m pip install -r requirements.txt
+py -m pip install -r requirements.txt
 ```
 
 ## Executar o Pipeline
 
 ```bash
-2. py main.py
+py main.py
 ```
 
 ## Visualizar os Resultados no MLflow
 
 ```bash
-3. mlflow ui para visualizar resultados
+mlflow ui  
 ```
 Acesse: **http://localhost:5000**
 
@@ -135,4 +135,5 @@ Scikit-learn - Modelos de ML
 MLflow - Tracking de experimentos  
 Pandas - Manipulação de dados  
 Cookiecutter - Estrutura do projeto  
+
 
